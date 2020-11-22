@@ -1,0 +1,146 @@
+* {
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+}
+
+
+#header-nav {
+    background-color: lightgrey;
+    border-radius: 0;
+    border: 0;    
+    border: solid black 3px;
+    margin-bottom: 0;
+}
+
+
+.navbar-brand {       
+    padding-left: 0;  
+}
+
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+  }
+
+
+.navbar-brand h1 {    
+    font-family: sans-serif;
+    font-size: 1.5em;
+    color: black;   
+    margin-top: 0;
+    margin-left: 15px;
+    margin-bottom: 0;
+}
+
+#nav-list {
+    margin-top: 10px;
+}
+
+#nav-list a {
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 100;
+    background-color: grey;
+}
+
+#nav-list a:hover {
+    background-color: white;  
+	font-weight : bold;
+	color: black;
+}
+
+.navbar-default .navbar-collapse {
+	margin-top:0px;
+	border: 0px;
+	list-style-type: none;
+}  
+
+body {
+	background-color: none;
+	font-family: sans-serif;
+}
+
+.title {
+	text-align: center;
+	margin: 0px;
+	padding: 60px;
+	background-color: none;
+	font-size: 60px;
+}
+
+ 
+  .box { 
+	background-color: lightgrey;
+   	border: 0px solid black;
+	margin: 15px;
+	padding: 0px;
+	position: relative;
+ }
+
+  .subtitle {
+	font-size: 22px;
+	width: 100%;
+	border: 0px solid black;
+	font-weight: bold;
+	text-align: center;
+	top:0;
+	right: 0;
+	margin: 0px;
+	padding: 0px;
+	position: absolute;
+}
+  
+ 
+p {
+	padding: 35px 20px 15px 15px;
+	font-size: 15px;
+	background-color: none;
+	color: black;
+  }
+  
+#ch {background-color: lightgrey;
+	 color: black;
+ }
+  
+#be {
+	background-color: lightgrey; 
+	color: black;
+ }
+ 
+#su {background-color: lightgrey;
+	 color: black;
+ }
+  
+  /* Desktop */
+  @media (min-width: 992px) {
+ 
+  .col-lg-4 {
+    width: 33.33%;
+    float: left;
+	}
+}
+
+/* Tablet*/
+@media (min-width: 768px) and (max-width: 991px) {
+ 
+  .col-md-6 {
+    width: 50%;
+    float: left;
+  }
+  .col-md-12 {
+    width: 100%;
+    float: left;
+  }
+}
+/*mobile*/
+@media (max-width: 767px)  {
+  
+  .col-sx-12 {
+  	float: left;
+    width: 100%;
+  }
+}
+
+  
